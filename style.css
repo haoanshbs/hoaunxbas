@@ -1,0 +1,100 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: AtlasGrotesk;
+	font-size: 14px;
+	background: grey;
+	background-color: #2f93ce
+}
+.modal-dialog{
+	
+}
+#myVideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -9
+}
+h2{
+   font-size: 1.5em;
+   font-weight: bold;
+}
+ {
+	height: 37vh;
+	overflow-y: auto
+}
+
+ .files {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+ .files .file {
+	display: flex;
+	padding: 1em;
+	justify-content: space-between;
+	align-items: center
+}
+
+ .files .file .file-info {
+	display: flex;
+	align-items: center
+}
+
+ .files .file .file-info .file-desc .file-name,
+ .files .file .file-info .file-desc .file-size {
+	margin: 0;
+	padding: 0
+}
+
+ .files .file .file-info .file-desc .file-name {
+	font-size: 14px;
+	line-height: 24px
+}
+
+ .files .file .file-info .file-desc .file-size {
+	color: #637282;
+	font-size: 12px;
+	line-height: 16px
+}
+
+ .files .file .file-info .file-img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 64px
+}
+
+ .files .file .file-info .file-img img {
+	width: 36px;
+	height: 36px
+}
+
+ .files .file .file-download {
+	cursor: pointer
+}
+
+ .files .file .file-download svg {
+	fill: #2f70df
+}
+
+.modal-con{
+	height: 37vh;
+	overflow-y: auto
+}
+
+#byn{
+	font-size: 14px;
+}
+#byna{
+	font-size: 14px;
+	border: 2px solid gray;
+}
+.ht{
+		font-size:24px;
+	
+}
